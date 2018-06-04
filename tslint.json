@@ -1,0 +1,8 @@
+{
+  "extends": ["tslint-microsoft-contrib", "tslint-config-prettier"],
+  "rulesDirectory": ["node_modules/codelyzer"],
+  "rules": {
+    "missing-jsdoc": false,
+    "export-name": false
+  }
+}
