@@ -11,6 +11,8 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 // layout
 import { FooterComponent } from './layout/footer/footer.component';
+import { LeftPanelComponent } from './layout/left-panel/left-panel.component';
+import { RightPanelComponent } from './layout/right-panel/right-panel.component';
 import { TopNavigationComponent } from './layout/top-navigation/top-navigation.component';
 
 // pages
@@ -25,7 +27,9 @@ import { LoginComponent } from './pages/login/login.component';
     FooterComponent,
     LandingPageComponent,
     TopNavigationComponent,
-    DemoComponent
+    DemoComponent,
+    LeftPanelComponent,
+    RightPanelComponent
   ],
   imports: [
     BrowserModule,

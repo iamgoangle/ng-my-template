@@ -1,12 +1,11 @@
-import { Component } from '@angular/core';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-right-panel',
+  templateUrl: './right-panel.component.html',
+  styleUrls: ['./right-panel.component.scss']
 })
-export class AppComponent {
+export class RightPanelComponent implements OnInit {
   public assets = {
     images: {
       logo: 'assets/images/logo.png',
@@ -20,4 +19,8 @@ export class AppComponent {
       admin: 'assets/images/admin.jpg'
     }
   };
+
+  constructor() {}
+
+  public ngOnInit() {}
 }
